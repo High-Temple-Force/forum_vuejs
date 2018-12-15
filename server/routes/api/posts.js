@@ -28,7 +28,7 @@ router.delete('/:id', async (req, res) => {
 
 async function loadPostsCollection () {
   const client = await mongodb.MongoClient.connect
-  ('mongodb://moby:5kouraku@ds037488.mlab.com:37488/vue-forum', {
+  (`mongodb://${process.env.ENV_MONGOUSER}:${process.env.ENV_MONGOPASS}@ds037488.mlab.com:37488/vue-forum`, {
     useNewUrlParser: true
   })
 
