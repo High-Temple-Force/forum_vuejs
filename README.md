@@ -15,8 +15,8 @@
 10. npm i axios
 
 ## Env
-1. Vue.js
-2. Node.js
+1. Vue.js　v3.2.1
+2. Node.js v10.14.2
 3. Express
 4. Heroku
 5. MongoDB
