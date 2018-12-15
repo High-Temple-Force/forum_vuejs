@@ -21,12 +21,12 @@ router.post('/', async (req, res) => {
 
 // delete posts
 router.delete('/:id', async (req, res) => {
-    const posts = await loadPostsCollection()
-    await posts.deleteOne({_id: new mongodb.ObjectID(req.params.id)})
-    res.status(200).send()
+  const posts = await loadPostsCollection()
+  await posts.deleteOne({ _id: new mongodb.ObjectID(req.params.id) })
+  res.status(200).send()
 })
 
-async function loadPostsCollection() {
+async function loadPostsCollection () {
   const client = await mongodb.MongoClient.connect
   ('mongodb://moby:5kouraku@ds037488.mlab.com:37488/vue-forum', {
     useNewUrlParser: true

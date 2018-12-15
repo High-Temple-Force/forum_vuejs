@@ -8,4 +8,4 @@
     "dev": "nodemon server/index.js"
   },
 
-6. 
+6. mkdir server touch index.js
