@@ -9,3 +9,7 @@
   },
 
 6. mkdir server touch index.js
+7. npm i -g @vue/cli
+8. vue create client
+9. cd client
+10. npm i axios
