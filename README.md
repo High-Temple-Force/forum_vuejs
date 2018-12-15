@@ -13,3 +13,10 @@
 8. vue create client
 9. cd client
 10. npm i axios
+
+## Env
+1. Vue.js
+2. Node.js
+3. Express
+4. Heroku
+5. MongoDB
